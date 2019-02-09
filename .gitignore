@@ -1,11 +1,17 @@
+.env
+*.pyc
+.vscode
+.vscode/*
+.idea
+.local
+__pycache__/*
+logs
 
-.idea/misc.xml
+#ignore customized python version
 
-.idea/StockLearner.iml
-
-.idea/vcs.xml
-
-.idea/workspace.xml
+.python-version
+scratch.py
+.idea
 
 test_data/mnist/t10k-images-idx3-ubyte.gz
 
@@ -15,13 +21,9 @@ test_data/mnist/train-images-idx3-ubyte.gz
 
 test_data/mnist/train-labels-idx1-ubyte.gz
 
-*.pyc
-
 *.meta
 
 *.index
-
-*.local
 
 .idea/dictionaries/alex.xml
 
@@ -40,11 +42,7 @@ test_data/mnist/train-images-idx3-ubyte
 test_data/mnist/train-labels-idx1-ubyte
 
 model/mlp/stock_baseline/ckp/checkpoint
+
 main.log
-.idea/modules.xml
-.idea/inspectionProfiles/Project_Default.xml
-.idea/modules.xml
-.idea/modules.xml
-.idea/modules.xml
-.idea/modules.xml
+
 *.log
